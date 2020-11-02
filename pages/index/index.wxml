@@ -1,0 +1,20 @@
+<view class="player player-{{isPlayingMusic ? 'play' : 'pause'}}" bindtap="play">
+  <image src="/images/music_icon.png" />
+  <image src="/images/music_play.png" />
+</view>
+<!-- 背景图片 -->
+<image class="bg" src="/images/bg.jpg" />
+<!-- 内容区域 -->
+<view class="content">
+  <!-- 顶部GIF图片 -->
+  <image class="content-gif" src="/images/logo.png" />
+  <!-- 标题 -->
+  <view class="content-title">柳州职业技术学院</view>
+  <view class="content-title">校园招聘会</view>
+  <view class="content-address">
+    <view>我们诚邀您来参加</view>
+    <view>时间：2020.11.5</view>
+    <view>社湾地点：柳州市鱼峰区社湾路28号</view>
+    <view>官塘地点：柳州市官塘大道16号</view>
+  </view>
+</view>

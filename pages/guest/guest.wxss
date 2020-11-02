@@ -1,0 +1,36 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  width: 80vw;
+  position: fixed;
+  left: 10vw;
+  bottom: 30vh;
+}
+
+.content > view {
+  font-size: 2.8vh;
+  border: 1rpx solid black;
+  border-radius: 10rpx;
+  padding: 1.5vh 40rpx;
+  margin-bottom: 1.5vh;
+  color: black;
+}
+
+.content button {
+  font-size: 3vh;
+  height: 7.5vh;
+  line-height: 7.5vh;
+  background:white;
+  color: black;
+}
+
+.content picker {
+  padding: 0.7vh 0;
+}
+
+.content .phcolor {
+  color: black;
+}

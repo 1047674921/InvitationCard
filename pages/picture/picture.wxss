@@ -1,0 +1,31 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("http://localhost:3000/bg.jpg");
+}
+.title{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.hello{
+  font-size: 20px;
+  line-height: 2em;
+  text-align: left;
+}
+.text{
+  text-indent: 2em;
+  font-size: 15px;
+  line-height: 2em;
+}
+.bottom{
+  width: auto;
+  height: auto;
+}
+.r{
+  margin-top: 50px;
+  margin-left: 240px;
+}
+.r1{
+  margin-left: 250px;
+}
